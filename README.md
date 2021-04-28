@@ -14,17 +14,17 @@ Clone respository:
 
 Open this file directory in your terminal and run the following command:
 
-- Install Mongoose dependecy
+- Install dependecies
 ```bash
     yarn install
 ```
 
-- Start server on port 7000
+- Start server on port 7000 (You need to start MongoDB server on your local machine)
 ```bash
     npm start
 ```
 
-- Run test
+- Run test (You don't need to start a MongoDB server all data storage is handled in-memory)
 ```bash
     npm test
 ```
